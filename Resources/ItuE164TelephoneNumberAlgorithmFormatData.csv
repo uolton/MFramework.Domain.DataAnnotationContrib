@@ -1,0 +1,3 @@
+--CountryCode;CountryName;TotalMaxLength;IsFixedLength;FullRegEx,CountryCode,NormalizeFormat,
+AU;Australia;
+GB;United Kingdom;15;false;^+44\d{10}$;44;{C} ({A}) {S}

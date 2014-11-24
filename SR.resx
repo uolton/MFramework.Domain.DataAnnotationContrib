@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ArgumentException_EmptyArray" xml:space="preserve">
+    <value>The array passed was empty. Expected a length &gt; 0.</value>
+  </data>
+  <data name="ArgumentException_EmptyString" xml:space="preserve">
+    <value>The value specified cannot be an empty string.</value>
+  </data>
+  <data name="ArgumentException_InvalidArrayLength" xml:space="preserve">
+    <value>The array passed was of an unexpected length. Expected a length of '{0}'.</value>
+  </data>
+  <data name="ArgumentOutOfRangeException_NotGreaterThan" xml:space="preserve">
+    <value>The value specified ({1}) was out of the range of acceptable values. Expected a minimum of {0}.</value>
+    <comment>string minimum, string actual</comment>
+  </data>
+  <data name="ArgumentOutOfRangeException_NotLessThan" xml:space="preserve">
+    <value>The value specified ({1}) was out of the range of acceptable values. Expected a maximum of {0}.</value>
+    <comment>string maximum, string actual</comment>
+  </data>
+  <data name="ArgumentOutOfRangeException_NotValidIndex" xml:space="preserve">
+    <value>The index specified ({3}) was out of the range of acceptable values. Expected a valid index into list '{0}' between {1} and {2}.</value>
+    <comment>string listOrArrayName, int minimum, int maximum, int actual</comment>
+  </data>
+  <data name="FormatException_NotRegexMatch" xml:space="preserve">
+    <value>The value specified ({1}) did not match the required format. Expected: '{0}'.</value>
+    <comment>string expected, string actual</comment>
+  </data>
+  <data name="Iso13616IBANAlgorithm_InvalidBBANFormat" xml:space="preserve">
+    <value>The number has an an invalid Basic Bank Account Number format for the specified country.</value>
+  </data>
+  <data name="Iso13616IBANAlgorithm_InvalidBBANLength" xml:space="preserve">
+    <value>The number has an an invalid Basic Bank Account Number length for the specified country.</value>
+  </data>
+  <data name="Iso13616IBANAlgorithm_InvalidCountry" xml:space="preserve">
+    <value>The number is from an invalid (non IBAN) country.</value>
+  </data>
+  <data name="PaymentCardValidator_CardTypeNotAccepted" xml:space="preserve">
+    <value>The number was valid but from an unaccepted card issuer.</value>
+  </data>
+  <data name="PaymentCardValidator_CardTypeNotRecognized" xml:space="preserve">
+    <value>The number was not of a recognized card issuer format.</value>
+  </data>
+  <data name="ResourceHelper_ArgumentException_ResourceNotFound" xml:space="preserve">
+    <value>The specified resource '{0}' could not be found in assembly '{1}'.</value>
+    <comment>string resourcename, string assemblyName</comment>
+  </data>
+  <data name="UpuPostalCodeAlgorithm_InvalidCountry" xml:space="preserve">
+    <value>The country specified '{0}' does not have postcode system to validate against.</value>
+    <comment>string countryName</comment>
+  </data>
+  <data name="Validator_ChecksumFailure" xml:space="preserve">
+    <value>The value failed internal checksum validation.</value>
+  </data>
+  <data name="Validator_ExtractFailure" xml:space="preserve">
+    <value>The {0} information within the value was not of a valid format.</value>
+    <comment>string informationName</comment>
+  </data>
+  <data name="Validator_FormatFailure" xml:space="preserve">
+    <value>The value failed format validation.</value>
+  </data>
+  <data name="Validator_InvalidSequence" xml:space="preserve">
+    <value>The value includes an explicitly prohibited letter/digit sequence.</value>
+  </data>
+  <data name="Validator_LengthFailure" xml:space="preserve">
+    <value>The value failed length validation.</value>
+  </data>
+  <data name="Validator_LengthMaxFailure" xml:space="preserve">
+    <value>The value failed length (maximum) validation.</value>
+  </data>
+  <data name="Validator_LengthMinFailure" xml:space="preserve">
+    <value>The value failed length (minimum) validation.</value>
+  </data>
+  <data name="Validator_RangeMaxFailure" xml:space="preserve">
+    <value>The value failed range (maximum) validation.</value>
+  </data>
+  <data name="Validator_RangeMinFailure" xml:space="preserve">
+    <value>The value failed range (minimum) validation.</value>
+  </data>
+  <data name="Validator_ReservedForAdvertising" xml:space="preserve">
+    <value>The value is reserved for advertising purposes.</value>
+  </data>
+  <data name="Validator_SizeMaxFailure" xml:space="preserve">
+    <value>The value failed size (maximum) validation.</value>
+  </data>
+  <data name="Validator_SizeMinFailure" xml:space="preserve">
+    <value>The value failed size (minimum) validation.</value>
+  </data>
+</root>

@@ -1,0 +1,47 @@
+--CountryCode;CountryName;TotalMaxLength;IsFixedLength;FullRegEx;BankIdStart;BankIdLength;BranchIdStart;BranchIdLength;BankAndBranchChecksum;AccountStart;AccountLength
+AL;Albania;28;true;\d{10}[a-zA-Z0-9]{16};4;3;7;4;11;12;16
+AD;Andorra;24;false;\d{10}[a-zA-Z0-9]{12};4;4;8;4;-1;12;12
+AT;Austria;20;true;\d{16};4;5;-1;-1;-1;9;11
+BE;Belgium;16;true;\d{12};4;3;-1;-1;-1;7;9
+BA;Bosnia and Herzegovina;20;false;\d{16};4;3;7;3;-1;10;10
+BG;Bulgaria;22;true;[A-Z]{4}\d{6}[a-zA-Z0-9]{8};4;4;8;4;-1;12;10
+HR;Croatia;21;false;\d{17};4;7;-1;-1;-1;11;10
+CY;Cyprus;28;true;\d{8}[a-zA-Z0-9]{16};4;3;7;5;-1;12;16
+CZ;Czech Republic;24;true;\d{20};4;4;-1;-1;-1;8;16
+DK;Denmark;18;true;\d{14};4;4;-1;-1;-1;8;10
+EE;Estonia;20;true;\d{16};4;2;-1;-1;-1;6;14
+FI;Finland;18;true;\d{14};4;6;-1;-1;-1;10;8
+FR;France;27;true;\d{10}[a-zA-Z0-9]{11}\d\d;4;5;-1;-1;-1;9;18
+DE;Germany;22;true;\d{18};4;8;-1;-1;-1;12;10
+GI;Gibraltar;23;true;[A-Z]{4}[a-zA-Z0-9]{15};4;4;-1;-1;-1;8;15
+GR;Greece;27;true;\d{7}[a-zA-Z0-9]{16};4;3;7;4;-1;11;16
+HU;Hungary;28;true;\d{24};4;3;7;4;-1;11;17
+IS;Iceland;26;true;\d{22};4;4;-1;-1;-1;8;18
+IE;Ireland;22;true;[A-Z]{4}\d{14};4;4;8;6;-1;14;8
+IL;Israel;23;false;\d{19};4;3;7;3;-1;10;13
+IT;Italy;27;true;[A-Z]\d{10}[a-zA-Z0-9]{12};5;5;10;5;-1;15;12
+LV;Latvia;21;true;[A-Z]{4}[a-zA-Z0-9]{13};4;4;-1;-1;-1;8;13
+LI;Liechtenstein;21;true;\d{5}[a-zA-Z0-9]{12};4;5;-1;-1;-1;9;12
+LT;Lithuania;20;true;\d{16};4;5;-1;-1;-1;9;11
+LU;Luxembourg;20;true;\d{3}[a-zA-Z0-9]{13};4;3;-1;-1;-1;7;13
+MK;Macedonia;19;false;\d{3}[a-zA-Z0-9]{10}\d{2};4;3;-1;-1;-1;7;12
+MT;Malta;31;true;[A-Z]{4}\d{5}[a-zA-Z0-9]{18};4;4;8;5;-1;13;18
+MU;Mauritius;30;false;[A-Z]{4}\d{19}[A-Z]{3};4;6;10;2;-1;12;18
+MC;Monaco;27;false;\d{10}[a-zA-Z0-9]{11}\d\d;4;5;9;5;-1;14;13
+ME;Montenegro;22;false;\d{18};4;3;-1;-1;-1;7;15
+NL;The Netherlands;18;true;[A-Z]{4}\d{10};4;4;-1;-1;-1;8;10
+NO;Norway;15;true;\d{11};4;4;-1;-1;-1;8;7
+PL;Poland;28;true;\d{8}[a-zA-Z0-9]{16};4;8;-1;-1;-1;12;16
+PT;Portugal;25;true;\d{21};4;4;8;4;-1;12;13
+RO;Romania;24;true;[A-Z]{4}[a-zA-Z0-9]{16};4;4;-1;-1;-1;8;16
+SM;San Marino;27;false;[A-Z]\d{10}[a-zA-Z0-9]{12};5;5;10;5;-1;15;12
+SA;Saudi Arabia;24;true;\d{4}[a-zA-Z0-9]{18};4;2;-1;-1;-1;6;18
+RS;Serbia;22;false;\d{18};4;3;-1;-1;-1;7;15
+SK;Slovak Republic;24;true;\d{20};4;4;-1;-1;-1;8;16
+SI;Slovenia;19;true;\d{15};4;5;-1;-1;-1;9;10
+ES;Spain;24;true;\d{20};4;4;8;4;-1;12;12
+SE;Sweden;24;true;\d{20};4;3;-1;-1;-1;7;17
+CH;Switzerland;21;false;\d{5}[a-zA-Z0-9]{12};4;5;-1;-1;-1;9;12
+TN;Tunisia;24;false;\d{20};4;2;6;3;-1;9;15
+TR;Turkey;26;false;\d{5}[a-zA-Z0-9]{17};4;5;-1;-1;-1;9;17
+GB;United Kingdom;22;true;[A-Z]{4}\d{14};4;4;-1;-1;-1;8;14
